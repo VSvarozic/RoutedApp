@@ -2,8 +2,8 @@
 Ext.Loader.setConfig({
     enabled: true,
     paths: { 
-        'RoutedApp.lib': '/javascripts/RoutedApp/lib',
-        'Ext.ux': '/javascripts/RoutedApp/ux'
+        'RoutedApp.lib': './lib',
+        'Ext.ux': './ux'
     }
 });
 
